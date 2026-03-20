@@ -53,8 +53,8 @@ class Stage3Request(BaseModel):
 def health():
     return {
         "status": "ok",
-        "groq_key_set": bool(os.getenv("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")),
-        "mistral_key_set": bool(os.getenv("REgE1yAN54RqfJitzpI5elBbvrHMIESg")),
+        "groq_key_set": bool(os.getenv("GROQ_API_KEY")),
+        "mistral_key_set": bool(os.getenv("MISTRAL_API_KEY")),
     }
 
 
