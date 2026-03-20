@@ -1,0 +1,23 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Session data
+data/sessions/
+
+# IDE
+.vscode/
+.idea/
+# Node
+node_modules/
